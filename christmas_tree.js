@@ -429,8 +429,8 @@ function main() {
         // 绘制文字
         ctx.font = '45px "PingFang SC", "Microsoft YaHei", sans-serif';  // 设置字体
         ctx.fillStyle = 'rgb(255, 255, 255)';  // 设置文字颜色为白色
-        ctx.fillText('Merry Christmas', 40, HEIGHT / 3);  // 绘制英文祝福语
-        ctx.fillText('康雅婷', 40, HEIGHT / 3 + 60);  // 绘制中文名字
+        ctx.fillText(' ', 40, HEIGHT / 3);  // 绘制英文祝福语
+        ctx.fillText(' ', 40, HEIGHT / 3 + 60);  // 绘制中文名字
 
         // 绘制雪花
         drawSnow2d(ctx, snow2d);
